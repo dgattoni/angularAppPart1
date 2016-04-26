@@ -1,5 +1,8 @@
 const barrels: string[] = [
   'app',
+  'app/albums-page',
+  'app/album-cover',
+  'app/tracks-page',
   /** @cli-barrel */
 ];
 
