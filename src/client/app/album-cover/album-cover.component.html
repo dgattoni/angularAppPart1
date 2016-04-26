@@ -1,0 +1,9 @@
+<div class="media">
+  <img
+  	[alt]="album.name"
+  	[src]="album.image"
+    [routerLink]="['/TracksPageComponent', {id: album.id, name: album.name}]"
+  	class="album">
+</div>
+
+ 
